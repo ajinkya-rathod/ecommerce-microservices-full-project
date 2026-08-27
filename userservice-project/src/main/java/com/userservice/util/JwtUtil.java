@@ -20,10 +20,8 @@ import java.util.Date;
 @Setter
 public class JwtUtil {
 
-    //Value("${app.jwt.secret}")
     private final SecretKey key;
 
-   // @Value("${app.jwt.expiration-ms}")
     private final Long ExpirationMs;
 
 
